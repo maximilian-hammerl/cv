@@ -1,0 +1,94 @@
+{
+  "social": {
+    "title": "Sozial"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse"
+  },
+  "language": {
+    "title": "Sprachen",
+    "languages": [
+      {"name": "Deutsch", "proficiency": "Muttersprache"},
+      {"name": "Englisch", "proficiency": "Kompetent (C1)"}
+    ]
+  },
+  "workExperience": {
+    "title": "Berufserfahrung",
+    "companies": [
+      {
+        "name": "Smart Cyber Security GmbH",
+        "positions": [
+          {
+            "from": "01/2026",
+            "to": "",
+            "title": "Senior Software Engineer"
+          },
+          {
+            "from": "01/2024",
+            "to": "12/2025",
+            "title": "Software Engineer"
+          }
+        ],
+        "tasks": [
+          "Entwicklung von Smart Lens, einem EASM SaaS Produkts",
+          "Unterstützung von anderen Teams"
+        ]
+      },
+      {
+        "name": "Sensetence UG",
+        "positions": [
+          {
+            "from": "09/2023",
+            "to": "12/2023",
+            "title": "Full-Stack-Entwickler"
+          },
+          {
+            "from": "04/2023",
+            "to": "08/2023",
+            "title": "Junior Full-Stack-Entwickler"
+          },
+          {
+            "from": "07/2020",
+            "to": "03/2023",
+            "title": "Werkstudent"
+          }
+        ],
+        "tasks": [
+          "Entwicklung von Web-Anwendungen für verschiedenste Anwendungsfälle, im Frontend in JavaScript mit jQuery und Vue.js 2, im Backend in PHP mit Symfony",
+          "Entwicklung von Cross-Platform Apps: In JavaScript zuerst mit Cordova, dann in TypeScript mit Capacitor"
+        ]
+      },
+      {
+        "name": "Lehrstuhl für Informatik, Universität Passau",
+        "positions": [
+          {
+            "from": "02/2017",
+            "to": "02/2020",
+            "title": "Studentische Hilfskraft"
+          }
+        ],
+        "tasks": []
+      }
+    ]
+  },
+  "education": {
+    "title": "Ausbildung",
+    "steps": [
+      {
+        "from": "04/2021",
+        "to": "03/2023",
+        "title": "Master of Science Informatik",
+        "institution": "Universität Augsburg"
+      },
+      {
+        "from": "10/2016",
+        "to": "03/2021",
+        "title": "Bachelor of Science Informatik",
+        "institution": "Universität Passau"
+      }
+    ]
+  }
+}
