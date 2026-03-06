@@ -1,22 +1,22 @@
 {
   "social": {
-    "title": "Sozial"
+    "title": "Social"
   },
   "contact": {
-    "title": "Kontakt",
-    "email": "E-Mail",
-    "phone": "Telefon",
-    "address": "Adresse"
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
   },
   "language": {
-    "title": "Sprachen",
+    "title": "Languages",
     "languages": [
-      {"name": "Deutsch", "proficiency": "Muttersprache"},
-      {"name": "Englisch", "proficiency": "Kompetent (C1)"}
+      {"name": "German", "proficiency": "Native"},
+      {"name": "English", "proficiency": "Proficient (C1)"}
     ]
   },
   "workExperience": {
-    "title": "Berufserfahrung",
+    "title": "Work Experience",
     "companies": [
       {
         "name": "Smart Cyber Security GmbH",
@@ -33,8 +33,8 @@
           }
         ],
         "tasks": [
-          "Entwicklung von Smart Lens, einem EASM SaaS Produkts",
-          "Unterstützung von anderen Teams"
+          "Development of Smart Lens, an EASM SaaS product",
+          "Supporting other teams"
         ]
       },
       {
@@ -43,31 +43,31 @@
           {
             "from": "09/2023",
             "to": "12/2023",
-            "title": "Full-Stack-Entwickler"
+            "title": "Full-Stack Developer"
           },
           {
             "from": "04/2023",
             "to": "08/2023",
-            "title": "Junior Full-Stack-Entwickler"
+            "title": "Junior Full-Stack Developer"
           },
           {
             "from": "07/2020",
             "to": "03/2023",
-            "title": "Werkstudent"
+            "title": "Working Student"
           }
         ],
         "tasks": [
-          "Entwicklung von Web-Anwendungen für verschiedenste Anwendungsfälle, im Frontend in JavaScript mit jQuery und Vue.js 2, im Backend in PHP mit Symfony",
-          "Entwicklung von Cross-Platform Apps: In JavaScript zuerst mit Cordova, dann in TypeScript mit Capacitor"
+          "Development of web applications for a wide range of use cases, in the frontend with JavaScript using jQuery and Vue.js 2, and in the backend with PHP using Symfony",
+          "Development of cross-platform apps: first in JavaScript with Cordova, then in TypeScript with Capacitor"
         ]
       },
       {
-        "name": "Lehrstuhl für Informatik, Universität Passau",
+        "name": "Faculty of Computer Science, University of Passau",
         "positions": [
           {
             "from": "02/2017",
             "to": "02/2020",
-            "title": "Studentische Hilfskraft"
+            "title": "Student Assistant"
           }
         ],
         "tasks": []
@@ -75,19 +75,19 @@
     ]
   },
   "education": {
-    "title": "Ausbildung",
+    "title": "Education",
     "steps": [
       {
         "from": "04/2021",
         "to": "03/2023",
-        "title": "Master of Science, Informatik",
-        "institution": "Universität Augsburg"
+        "title": "Master of Science, Computer Science",
+        "institution": "University of Augsburg"
       },
       {
         "from": "10/2016",
         "to": "03/2021",
-        "title": "Bachelor of Science, Informatik",
-        "institution": "Universität Passau"
+        "title": "Bachelor of Science, Computer Science",
+        "institution": "University of Passau"
       }
     ]
   }
