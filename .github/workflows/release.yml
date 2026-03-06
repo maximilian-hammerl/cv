@@ -20,12 +20,7 @@ jobs:
         uses: typst-community/setup-typst@v4
 
       - name: Compile PDF
-        run: |
-          set -euo pipefail
-          for file in translations/*.json; do
-            translation="$(basename "$file" .json)"
-            typst compile --input jsonFile="${file}" main.typ "cv-${translation}.pdf"
-          done
+        run: ./compile.sh
 
       - name: Release
         uses: softprops/action-gh-release@v2
