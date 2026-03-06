@@ -24,6 +24,8 @@ jobs:
         run: echo "version=$(typst --version)" >> "$GITHUB_OUTPUT"
 
       - name: Compile PDFs with Typst
+        env:
+          RELEASE_VERSION: ${{ github.ref_name }}
         run: ./compile.sh
 
       - name: Release

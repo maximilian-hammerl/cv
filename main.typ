@@ -1,11 +1,13 @@
-#let data = json(sys.inputs.jsonFile)
+#let json-file = sys.inputs.at("jsonFile", default: "translations/german.json")
+#let data = json(json-file)
+#let release-version = sys.inputs.at("releaseVersion", default: "dev")
 
 #set page(
   paper: "a4",
   margin: 2cm,
   footer: [
     #text(fill: gray)[
-      v0.0.1
+      #release-version
     ]
     #h(1fr)
     #text(fill: gray)[
