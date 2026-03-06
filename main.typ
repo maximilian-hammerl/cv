@@ -46,7 +46,7 @@
   )
 ]
 
-#let data = json("data-de.json")
+#let data = json(sys.inputs.jsonFile)
 
 #grid(
   columns: (26%, 74%),
