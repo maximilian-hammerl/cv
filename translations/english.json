@@ -13,8 +13,14 @@
   "language": {
     "title": "Languages",
     "languages": [
-      {"name": "German", "proficiency": "Native"},
-      {"name": "English", "proficiency": "Proficient (C1)"}
+      {
+        "name": "German",
+        "proficiency": "Native"
+      },
+      {
+        "name": "English",
+        "proficiency": "Proficient (C1)"
+      }
     ]
   },
   "workExperience": {
@@ -35,8 +41,16 @@
           }
         ],
         "tasks": [
-          "Development of Smart Lens, an EASM SaaS product",
-          "Supporting other teams"
+          "Full-stack development of Smart Lens, an EASM SaaS product, with a focus on server-side development",
+          "Primary technical responsibility for backend, APIs, and database",
+          "Introduction of an RFC process as well as preparation and facilitation of architecture decisions",
+          "Ensuring stability, scalability, and reliability through load testing, bottleneck analysis, and performance optimization",
+          "Technical coordination between engineering, sales, support, and other stakeholders"
+        ],
+        "technologies": [
+          "TypeScript (Deno, Vue.js)",
+          "Kotlin (Spring)",
+          "PostgreSQL"
         ]
       },
       {
@@ -59,8 +73,14 @@
           }
         ],
         "tasks": [
-          "Development of web applications for a wide range of use cases, in the frontend with JavaScript using jQuery and Vue.js 2, and in the backend with PHP using Symfony",
-          "Development of cross-platform apps: first in JavaScript with Cordova, then in TypeScript with Capacitor"
+          "Design, development, and implementation of custom web applications as well as native Android and cross-platform apps",
+          "Responsibility for requirements management, project coordination, and client alignment across various industries",
+          "Testing, troubleshooting, and performance optimization for quality assurance"
+        ],
+        "technologies": [
+          "PHP (Symfony)",
+          "JavaScript (Vue.js, jQuery)",
+          "MariaDB"
         ]
       },
       {
@@ -72,7 +92,16 @@
             "title": "Student Assistant"
           }
         ],
-        "tasks": []
+        "tasks": [
+          "Further development of the online application management system OASys and the scholarship management system StipSys",
+          "Independent design and development of OASys 2.0",
+          "Maintenance, support, and technical supervision of the web applications"
+        ],
+        "technologies": [
+          "Java (JSF, Spring)",
+          "JavaScript (jQuery)",
+          "PostgreSQL"
+        ]
       }
     ]
   },
