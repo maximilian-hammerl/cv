@@ -132,7 +132,11 @@
         columns: (25%, 75%),
         gutter: 10pt,
         ..company.positions.map(position => (
-          position.from + [ \- ] + position.to,
+          if position.to != "" [
+            #position.from \- #position.to
+          ] else [
+            #position.from
+          ],
           text(weight: "bold")[#position.title],
         )).flatten(),
       )
