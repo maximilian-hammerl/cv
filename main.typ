@@ -62,7 +62,7 @@
           #smallcaps[
             #title
           ]
-      ]
+        ]
       ]
     ],
   )
