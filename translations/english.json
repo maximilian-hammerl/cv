@@ -1,13 +1,14 @@
 {
   "downloadCv": "To latest version on",
+  "tasks": "Tasks",
+  "technologies": "Technologies",
   "social": {
     "title": "Social"
   },
   "contact": {
     "title": "Contact",
     "email": "Email",
-    "phone": "Phone",
-    "address": "Address"
+    "phone": "Phone"
   },
   "language": {
     "title": "Languages",

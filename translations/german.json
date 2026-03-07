@@ -1,13 +1,14 @@
 {
   "downloadCv": "Zur neuesten Version auf",
+  "tasks": "Aufgaben",
+  "technologies": "Technologien",
   "social": {
     "title": "Sozial"
   },
   "contact": {
     "title": "Kontakt",
     "email": "E-Mail",
-    "phone": "Telefon",
-    "address": "Adresse"
+    "phone": "Telefon"
   },
   "language": {
     "title": "Sprachen",
@@ -45,6 +46,11 @@
           "Einführung eines RFC-Prozesses sowie Vorbereitung und Moderation von Architekturentscheidungen",
           "Sicherstellung von Stabilität, Skalierbarkeit und Zuverlässigkeit durch Lasttests, Bottleneck-Analysen und Performance-Optimierung",
           "Technische Koordination zwischen Entwicklung, Sales, Support und weiteren Stakeholdern"
+        ],
+        "technologies": [
+          "TypeScript (Deno, Vue.js)",
+          "Kotlin (Spring)",
+          "PostgreSQL"
         ]
       },
       {
@@ -70,6 +76,11 @@
           "Konzeption, Entwicklung und Implementierung von kundenspezifischen Web-Anwendungen sowie nativen Android- und Cross-Platform-Apps",
           "Verantwortung für Anforderungsmanagement, Projektkoordination und Kundenabstimmung in verschiedenen Branchen",
           "Testing, Fehlerbehebung und Performance-Optimierung zur Qualitätssicherung"
+        ],
+        "technologies": [
+          "PHP (Symfony)",
+          "JavaScript (Vue.js, jQuery)",
+          "MariaDB"
         ]
       },
       {
@@ -85,6 +96,11 @@
           "Weiterentwicklung des Online-Antragsverwaltungssystems OASys und des Stipendienverwaltungssystems StipSys",
           "Selbstständige Konzeption und Entwicklung von OASys 2.0",
           "Wartung, Support und technische Betreuung der Web-Anwendungen"
+        ],
+        "technologies": [
+          "Java (JSF, Spring)",
+          "JavaScript (jQuery)",
+          "PostgreSQL"
         ]
       }
     ]

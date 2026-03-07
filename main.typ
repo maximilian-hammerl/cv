@@ -4,7 +4,7 @@
 
 #set page(
   paper: "a4",
-  margin: 2cm,
+  margin: 1.2cm,
   footer: [
     #text(fill: gray)[
       #release-version
@@ -20,7 +20,7 @@
 
 #set text(
   font: "Libertinus Serif",
-  size: 11pt
+  size: 10pt
 )
 
 #show link: underline
@@ -52,7 +52,7 @@
       #rect(width: 3pt, height: 1em, fill: accent)
     ],
     [
-      #text(weight: "bold")[
+      #text(weight: "bold", size: 12pt)[
         #upper[
           #title
         ]
@@ -62,8 +62,8 @@
 ]
 
 #grid(
-  columns: (26%, 74%),
-  gutter: 24pt,
+  columns: (20%, 75%),
+  gutter: 5%,
   [
         Platzhalter für Bild
   ],
@@ -71,7 +71,7 @@
   [
     #text(size: 28pt, weight: "bold")[
       #upper("Maximilian Hammerl")
-    ]
+    ] \
     #text(size: 12pt, fill: accent, weight: "bold")[
       Senior Software Engineer
     ]
@@ -104,17 +104,15 @@
     *#data.contact.phone* \
     #link("tel:+49 151 41463744")
 
-    #v(8pt)
-
-    *#data.contact.address* \
-    86438 Kissing
-
     #v(16pt)
 
     #section-title(data.language.title)
 
     #for language in data.language.languages [
-      *#language.name*  - #language.proficiency \
+      *#language.name* \
+      #language.proficiency
+
+      #v(4pt)
     ]
   ],
 
@@ -139,10 +137,17 @@
         )).flatten(),
       )
 
-      Aufgaben
+      #text(weight: "bold")[
+        #data.tasks:
+      ]
       #for task in company.tasks [
         - #task
       ]
+
+      #text(weight: "bold")[
+        #data.technologies:
+      ]
+      #company.technologies.join(", ")
 
       #v(8pt)
     ]
