@@ -67,8 +67,9 @@
           }
         ],
         "tasks": [
-          "Entwicklung von Web-Anwendungen für verschiedenste Anwendungsfälle, im Frontend in JavaScript mit jQuery und Vue.js 2, im Backend in PHP mit Symfony",
-          "Entwicklung von Cross-Platform Apps: In JavaScript zuerst mit Cordova, dann in TypeScript mit Capacitor"
+          "Konzeption, Entwicklung und Implementierung von kundenspezifischen Web-Anwendungen sowie nativen Android- und Cross-Platform-Apps",
+          "Verantwortung für Anforderungsmanagement, Projektkoordination und Kundenabstimmung in verschiedenen Branchen",
+          "Testing, Fehlerbehebung und Performance-Optimierung zur Qualitätssicherung"
         ]
       },
       {
@@ -80,7 +81,11 @@
             "title": "Studentische Hilfskraft"
           }
         ],
-        "tasks": []
+        "tasks": [
+          "Weiterentwicklung des Online-Antragsverwaltungssystems OASys und des Stipendienverwaltungssystems StipSys",
+          "Selbstständige Konzeption und Entwicklung von OASys 2.0",
+          "Wartung, Support und technische Betreuung der Web-Anwendungen"
+        ]
       }
     ]
   },
