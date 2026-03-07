@@ -7,7 +7,8 @@
   margin: 1.2cm,
   footer: [
     #text(fill: gray)[
-      #release-version
+      #release-version,
+      #datetime.today().display()
     ]
     #h(1fr)
     #text(fill: gray)[
