@@ -59,7 +59,7 @@
     [
       #align(horizon)[
         #text(weight: "bold", size: 12pt)[
-          #upper[
+          #smallcaps[
             #title
           ]
       ]
@@ -95,10 +95,10 @@
 
   [
     #text(size: 28pt, weight: "bold")[
-      #upper("Maximilian Hammerl")
+      #smallcaps("Maximilian Hammerl")
     ] \
     #text(size: 12pt, fill: accent, weight: "bold")[
-      Senior Software Engineer
+      #smallcaps("Senior Software Engineer")
     ]
   ],
 
