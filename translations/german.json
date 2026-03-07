@@ -12,8 +12,14 @@
   "language": {
     "title": "Sprachen",
     "languages": [
-      {"name": "Deutsch", "proficiency": "Muttersprache"},
-      {"name": "Englisch", "proficiency": "Kompetent (C1)"}
+      {
+        "name": "Deutsch",
+        "proficiency": "Muttersprache"
+      },
+      {
+        "name": "Englisch",
+        "proficiency": "Kompetent (C1)"
+      }
     ]
   },
   "workExperience": {
@@ -34,8 +40,11 @@
           }
         ],
         "tasks": [
-          "Entwicklung von Smart Lens, einem EASM SaaS Produkts",
-          "Unterstützung von anderen Teams"
+          "Full-Stack-Entwicklung von Smart Lens, einem EASM-SaaS-Produkt, mit Schwerpunkt auf serverseitiger Entwicklung",
+          "Fachliche Hauptverantwortung, für Backend, APIs und Datenbank",
+          "Einführung eines RFC-Prozesses sowie Vorbereitung und Moderation von Architekturentscheidungen",
+          "Sicherstellung von Stabilität, Skalierbarkeit und Zuverlässigkeit durch Lasttests, Bottleneck-Analysen und Performance-Optimierung",
+          "Technische Koordination zwischen Entwicklung, Sales, Support und weiteren Stakeholdern"
         ]
       },
       {
