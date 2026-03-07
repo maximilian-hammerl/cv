@@ -45,11 +45,11 @@
           }
         ],
         "tasks": [
-          "Full-Stack-Entwicklung von Smart Lens, einem EASM-SaaS-Produkt, mit Schwerpunkt auf serverseitiger Entwicklung",
-          "Fachliche Hauptverantwortung, für Backend, APIs und Datenbank",
-          "Einführung eines RFC-Prozesses sowie Vorbereitung und Moderation von Architekturentscheidungen",
-          "Sicherstellung von Stabilität, Skalierbarkeit und Zuverlässigkeit durch Lasttests, Bottleneck-Analysen und Performance-Optimierung",
-          "Technische Koordination zwischen Entwicklung, Sales, Support und weiteren Stakeholdern"
+          "Full-Stack-Entwicklung von Smart Lens, einem EASM-SaaS-Produkt, mit Schwerpunkt auf serverseitiger Entwicklung.",
+          "Fachliche Hauptverantwortung, für Backend, APIs und Datenbank.",
+          "Einführung eines RFC-Prozesses sowie Vorbereitung und Moderation von Architekturentscheidungen.",
+          "Sicherstellung von Stabilität, Skalierbarkeit und Zuverlässigkeit durch Lasttests, Bottleneck-Analysen und Performance-Optimierung.",
+          "Technische Koordination zwischen Entwicklung, Sales, Support und weiteren Stakeholdern."
         ],
         "technologies": [
           "TypeScript (Deno, Vue.js)",
@@ -78,9 +78,9 @@
           }
         ],
         "tasks": [
-          "Konzeption, Entwicklung und Implementierung von kundenspezifischen Web-Anwendungen sowie nativen Android- und Cross-Platform-Apps",
-          "Verantwortung für Anforderungsmanagement, Projektkoordination und Kundenabstimmung in verschiedenen Branchen",
-          "Testing, Fehlerbehebung und Performance-Optimierung zur Qualitätssicherung"
+          "Konzeption, Entwicklung und Implementierung von kundenspezifischen Web-Anwendungen sowie nativen Android- und Cross-Platform-Apps.",
+          "Verantwortung für Anforderungsmanagement, Projektkoordination und Kundenabstimmung in verschiedenen Branchen.",
+          "Testing, Fehlerbehebung und Performance-Optimierung zur Qualitätssicherung."
         ],
         "technologies": [
           "PHP (Symfony)",
@@ -98,9 +98,9 @@
           }
         ],
         "tasks": [
-          "Weiterentwicklung des Online-Antragsverwaltungssystems OASys und des Stipendienverwaltungssystems StipSys",
-          "Selbstständige Konzeption und Entwicklung von OASys 2.0",
-          "Wartung, Support und technische Betreuung der Web-Anwendungen"
+          "Weiterentwicklung des Online-Antragsverwaltungssystems OASys und des Stipendienverwaltungssystems StipSys.",
+          "Selbstständige Konzeption und Entwicklung von OASys 2.0.",
+          "Wartung, Support und technische Betreuung der Web-Anwendungen."
         ],
         "technologies": [
           "Java (JSF, Spring)",
