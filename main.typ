@@ -78,7 +78,7 @@
     ],
     [
       #align(horizon)[
-        #text(weight: "bold", size: 11pt)[
+        #text(weight: "bold")[
           #title
         ]
       ]
