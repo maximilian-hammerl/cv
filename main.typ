@@ -19,6 +19,10 @@
   ]
 )
 
+#set par(
+  justify: true,
+)
+
 #set text(
   font: "Libertinus Serif",
   size: 10pt
@@ -63,8 +67,8 @@
 ]
 
 #grid(
-  columns: (20%, 75%),
-  gutter: 5%,
+  columns: (22%, 75%),
+  gutter: 3%,
   [
         Platzhalter für Bild
   ],
