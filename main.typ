@@ -25,7 +25,8 @@
 
 #set text(
   font: "Inria Sans",
-  size: 10pt
+  lang: "de",
+  size: 10pt,
 )
 
 #show link: underline
@@ -190,7 +191,7 @@
         + [ \- ]
         + step.institution
         + [ \ ]
-        + step.grading,
+        + text(size: 8pt)[#step.grading],
       )).flatten(),
     )
   ]
