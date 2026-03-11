@@ -24,7 +24,7 @@
 )
 
 #set text(
-  font: "Libertinus Serif",
+  font: "Inria Sans",
   size: 10pt
 )
 
@@ -87,8 +87,8 @@
 ]
 
 #grid(
-  columns: (22%, 75%),
-  gutter: 3%,
+  columns: (22%, 76%),
+  gutter: 2%,
   [],
 
   [
@@ -108,26 +108,26 @@
       Maximilian Hammerl
     ]
 
-    #v(8pt)
+    #v(4pt)
 
     *GitHub* \
     #link("https://github.com/maximilian-hammerl")[
       maximilian-hammerl
     ]
 
-    #v(16pt)
+    #v(8pt)
 
     #section-title(data.contact.title)
 
     *#data.contact.email* \
     #link("mailto:maximilian@hammerl.dev")
 
-    #v(8pt)
+    #v(4pt)
 
     *#data.contact.phone* \
     #link("tel:+49 151 41463744")
 
-    #v(16pt)
+    #v(8pt)
 
     #section-title(data.language.title)
 
@@ -144,7 +144,7 @@
 
     #data.profile.text
 
-    #v(8pt)
+    #v(4pt)
 
     #section-title(data.workExperience.title)
 
@@ -176,7 +176,7 @@
       ]
       #company.technologies.join(", ")
 
-      #v(8pt)
+      #v(4pt)
     ]
 
     #section-title(data.education.title)
