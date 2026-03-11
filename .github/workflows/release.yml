@@ -18,8 +18,9 @@ jobs:
 
       - name: Install font
         run: |
-          curl -L -o inria-sans.zip "https://fonts.google.com/download?family=Inria%20Sans"
-          unzip inria-sans.zip -d ~/.fonts
+          mkdir -p ~/.fonts
+          wget -O inria-sans.zip "https://fonts.google.com/download?family=Inria%20Sans"
+          unzip -o inria-sans.zip -d ~/.fonts
           fc-cache -f -v
 
       - name: Setup Typst
