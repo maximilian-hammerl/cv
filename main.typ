@@ -138,6 +138,10 @@
 
       #v(4pt)
     ]
+
+    #text(fill: white)[
+      #data.easterEgg
+    ]
   ],
 
   [
