@@ -11,36 +11,87 @@ contact:
 language:
   title: Languages
   languages:
-    - name: Sindarin
+    - name: German
       proficiency: Native
-    - name: Common Tongue
+    - name: English
       proficiency: Proficient (C1)
 profile:
   title: Profile
-  text: Seasoned lore keeper with millennia of experience in ancient script
-    preservation, arcane cartography, and inter-realm diplomacy. Passionate
-    about maintaining the integrity of historical records across the ages.
+  text: As a Senior Software Engineer, I bring full-stack experience and have my greatest
+    professional strengths in backend development, software architecture, and the
+    design of resilient system landscapes. I am particularly motivated by complex
+    projects in interdisciplinary teams where technical depth, clear communication,
+    and sustainable solutions are essential.
 workExperience:
   title: Work Experience
   companies:
-    - name: Tirith Archives & Scrollworks
+    - name: Smart Cyber Security GmbH
       positions:
-        - from: 03/2021
-          title: Senior Lore Keeper
-        - from: 06/2018
-          to: 02/2021
-          title: Lore Keeper
+        - from: 01/2026
+          title: Senior Software Engineer
+        - from: 01/2024
+          to: 12/2025
+          title: Software Engineer
       tasks:
-        - Catalogued and preserved over 3,000 ancient scrolls detailing the
-          history of the Elder Days.
+        - Full-stack development of Smart Lens, an EASM SaaS product, with a focus on
+          server-side development.
+        - Primary technical responsibility for backend, APIs, and database.
+        - Introduction of an RFC process as well as preparation and facilitation of architecture
+          decisions.
+        - Ensuring stability, scalability, and reliability through load testing, bottleneck
+          analysis, and performance optimization.
+        - Technical coordination between engineering, sales, support, and other stakeholders.
       technologies:
-        - Elvish Ink
+        - TypeScript (Deno, Vue.js)
+        - Kotlin (Spring)
+        - PostgreSQL
+        - Supabase
+    - name: Sensetence UG
+      positions:
+        - from: 09/2023
+          to: 12/2023
+          title: Full-Stack Developer
+        - from: 04/2023
+          to: 08/2023
+          title: Junior Full-Stack Developer
+        - from: 07/2020
+          to: 03/2023
+          title: Working Student
+      tasks:
+        - Design, development, and implementation of custom web applications as well as
+          native Android and cross-platform apps.
+        - Responsibility for requirements management, project coordination, and client
+          alignment across various industries.
+        - Testing, troubleshooting, and performance optimization for quality assurance.
+      technologies:
+        - PHP (Symfony)
+        - JavaScript (Vue.js, jQuery, Capacitor)
+        - MariaDB
+    - name: Faculty of Computer Science, University of Passau
+      positions:
+        - from: 02/2017
+          to: 02/2020
+          title: Student Assistant
+      tasks:
+        - Further development of the online application management system OASys and the
+          scholarship management system StipSys.
+        - Independent design and development of OASys 2.0.
+        - Maintenance, support, and technical supervision of the web applications.
+      technologies:
+        - Java (JSF, Spring)
+        - JavaScript (jQuery)
+        - PostgreSQL
 education:
   title: Education
   steps:
-    - from: 09/2014
-      to: 07/2018
-      title: Master of Lore, Ancient Scripts & Cartography
-      institution: College of Celoneth
-      grading: 'Grade: 1.20'
+    - from: 04/2021
+      to: 03/2023
+      title: Master of Science, Computer Science
+      institution: University of Augsburg
+      grading: 'ECTS credits: 85/120, provisional grade: 1.20'
+    - from: 10/2016
+      to: 03/2021
+      title: Bachelor of Science, Computer Science
+      institution: University of Passau
+      grading: 'ECTS credits: 173/180, provisional grade: 2.50'
 easterEgg: You found the first Easter egg. Congratulations!
