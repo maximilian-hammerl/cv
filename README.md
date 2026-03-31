@@ -15,9 +15,9 @@ markup-based typesetting system designed as an alternative to LaTeX.
 ## Download
 
 The latest versions of my CV are available in the
-[Releases](https://github.com/maximilian-hammerl/cv-template/releases) section in both
-[**German**](https://github.com/maximilian-hammerl/cv-template/releases/latest/download/cv-german.pdf) and
-[**English**](https://github.com/maximilian-hammerl/cv-template/releases/latest/download/cv-english.pdf).
+[Releases](https://github.com/maximilian-hammerl/cv/releases) section in both
+[**German**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-german.pdf) and
+[**English**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-english.pdf).
 
 ## Licensing
 
