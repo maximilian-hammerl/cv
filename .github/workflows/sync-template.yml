@@ -1,0 +1,25 @@
+name: Sync template
+
+on:
+  # Scheduled workflow
+  # schedule:
+  #   - cron: "0 0 * * *"
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: actions-template-sync
+        uses: AndreasAugustin/actions-template-sync@v2
+        with:
+          source_repo_path: maximilian-hammerl/cv-template
