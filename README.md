@@ -1,5 +1,9 @@
 # Curriculum Vitae
 
+> **Disclaimer:** This repository (and the CV template repository) was created as a fun side project and should not
+> be taken too seriously. It is not intended to be a particularly serious or efficient way to manage a CV — it just
+> happened to be an enjoyable thing to build. Expect rough edges.
+
 This repository contains my curriculum vitae, built with [Typst](https://typst.app) – a modern, fast
 markup-based typesetting system designed as an alternative to LaTeX.
 
