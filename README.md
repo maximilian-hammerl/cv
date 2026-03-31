@@ -1,6 +1,10 @@
-# Curriculum Vitae
+# Curriculum Vitae Template
 
-This repository contains my curriculum vitae, built with [Typst](https://typst.app) – a modern, fast
+> **Disclaimer:** This repository (and the CV repository that uses it) was created as a fun side project and should not
+> be taken too seriously. It is not intended to be a particularly serious or efficient way to manage a CV — it just
+> happened to be an enjoyable thing to build. Expect rough edges.
+
+This repository contains the template for my curriculum vitae, built with [Typst](https://typst.app) – a modern, fast
 markup-based typesetting system designed as an alternative to LaTeX.
 
 ## Structure
@@ -12,12 +16,37 @@ markup-based typesetting system designed as an alternative to LaTeX.
 - [`icons/`](icons/) - Icons used in the CV
 - [`dist/`](dist/) - Generated PDFs
 
+## Using the Template
+
+To use this template for your own CV:
+
+1. Fill out your personal details in `content/general.yaml`.
+2. Add at least one translation in `content/translations/` (e.g. `english.yaml` or `german.yaml`).
+3. Replace the profile picture at `content/images/profile-picture.png` with your own.
+4. Run `./compile.sh` to generate the PDFs into `dist/`.
+
 ## Download
 
-The latest versions of my CV are available in the
-[Releases](https://github.com/maximilian-hammerl/cv/releases) section in both
-[**German**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-german.pdf) and
-[**English**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-english.pdf).
+The latest versions of the CV template with example data are available in
+the [Releases](https://github.com/maximilian-hammerl/cv-template/releases) section in both
+[**German**](https://github.com/maximilian-hammerl/cv-template/releases/latest/download/cv-german.pdf) and
+[**English**](https://github.com/maximilian-hammerl/cv-template/releases/latest/download/cv-english.pdf).
+
+## Workflows
+
+### Release (`release.yml`)
+
+Triggered automatically when a tag matching `v*.*.*` is pushed. It compiles all CV PDFs via `compile.sh` and creates a
+GitHub release with the generated PDFs attached and auto-generated release notes. The release workflow is built to
+support immutable releases — you can enforce this by enabling
+[release immutability](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases)
+in your repository settings.
+
+### Sync Template (`sync-template.yml`)
+
+Used in a repository created from this template to pull in upstream changes. It can be triggered manually via
+`workflow_dispatch`, or you can uncomment the `schedule` block to run it automatically on a cron schedule. It opens a
+pull request with any changes from this template repository, allowing you to review and merge them selectively.
 
 ## Licensing
 

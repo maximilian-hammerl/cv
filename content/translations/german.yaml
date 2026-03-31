@@ -11,86 +11,37 @@ contact:
 language:
   title: Sprachen
   languages:
-    - name: Deutsch
+    - name: Sindarin
       proficiency: Muttersprache
-    - name: Englisch
-      proficiency: Kompetent (C1)
+    - name: Gemeinsprache
+      proficiency: Fließend (C1)
 profile:
   title: Profil
-  text: Als Senior Software Engineer bringe ich Full-Stack-Erfahrung mit und habe
-    meine größten fachlichen Stärken im Backend, in der Softwarearchitektur und in
-    der Entwicklung belastbarer Systemlandschaften. Besonders motivieren mich komplexe
-    Projekte in interdisziplinären Teams, in denen technische Tiefe, klare Kommunikation
-    und nachhaltige Lösungen gefragt sind.
+  text: Erfahrener Wissenshüter mit jahrtausendealter Erfahrung in der Bewahrung
+    antiker Schriften, arkaner Kartographie und interreichlicher Diplomatie.
+    Leidenschaftlich engagiert für die Wahrung der Integrität historischer
+    Aufzeichnungen über alle Zeitalter hinweg.
 workExperience:
   title: Berufserfahrung
   companies:
-    - name: Smart Cyber Security GmbH
+    - name: Tirith Archives & Scrollworks
       positions:
-        - from: 01/2026
-          title: Senior Software Engineer
-        - from: 01/2024
-          to: 12/2025
-          title: Software Engineer
+        - from: 03/2021
+          title: Leitender Wissenshüter
+        - from: 06/2018
+          to: 02/2021
+          title: Wissenshüter
       tasks:
-        - Full-Stack-Entwicklung von Smart Lens, einem EASM-SaaS-Produkt, mit Schwerpunkt
-          auf serverseitiger Entwicklung.
-        - Fachliche Hauptverantwortung, für Backend, APIs und Datenbank.
-        - Einführung eines RFC-Prozesses sowie Vorbereitung und Moderation von Architekturentscheidungen.
-        - Sicherstellung von Stabilität, Skalierbarkeit und Zuverlässigkeit durch Lasttests,
-          Bottleneck-Analysen und Performance-Optimierung.
-        - Technische Koordination zwischen Entwicklung, Sales, Support und weiteren Stakeholdern.
+        - Katalogisierung und Bewahrung von über 3.000 antiken Schriftrollen zur
+          Geschichte der Älteren Tage.
       technologies:
-        - TypeScript (Deno, Vue.js)
-        - Kotlin (Spring)
-        - PostgreSQL
-        - Supabase
-    - name: Sensetence UG
-      positions:
-        - from: 09/2023
-          to: 12/2023
-          title: Full-Stack-Entwickler
-        - from: 04/2023
-          to: 08/2023
-          title: Junior Full-Stack-Entwickler
-        - from: 07/2020
-          to: 03/2023
-          title: Werkstudent
-      tasks:
-        - Konzeption, Entwicklung und Implementierung von kundenspezifischen Web-Anwendungen
-          sowie nativen Android- und Cross-Platform-Apps.
-        - Verantwortung für Anforderungsmanagement, Projektkoordination und Kundenabstimmung
-          in verschiedenen Branchen.
-        - Testing, Fehlerbehebung und Performance-Optimierung zur Qualitätssicherung.
-      technologies:
-        - PHP (Symfony)
-        - JavaScript (Vue.js, jQuery, Capacitor)
-        - MariaDB
-    - name: Lehrstuhl für Informatik, Universität Passau
-      positions:
-        - from: 02/2017
-          to: 02/2020
-          title: Studentische Hilfskraft
-      tasks:
-        - Weiterentwicklung des Online-Antragsverwaltungssystems OASys und des Stipendienverwaltungssystems
-          StipSys.
-        - Selbstständige Konzeption und Entwicklung von OASys 2.0.
-        - Wartung, Support und technische Betreuung der Web-Anwendungen.
-      technologies:
-        - Java (JSF, Spring)
-        - JavaScript (jQuery)
-        - PostgreSQL
+        - Elfentinte
 education:
   title: Ausbildung
   steps:
-    - from: 04/2021
-      to: 03/2023
-      title: Master of Science, Informatik
-      institution: Universität Augsburg
-      grading: 'ECTS-Punkte: 85/120, vorläufige Note: 1.20'
-    - from: 10/2016
-      to: 03/2021
-      title: Bachelor of Science, Informatik
-      institution: Universität Passau
-      grading: 'ECTS-Punkte: 173/180, vorläufige Note: 2.50'
+    - from: 09/2014
+      to: 07/2018
+      title: Master of Lore, Antike Schriften & Kartographie
+      institution: College of Celoneth
+      grading: 'Note: 1,20'
 easterEgg: Du hast das erste Easter Egg gefunden. Glückwunsch!
