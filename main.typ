@@ -96,7 +96,7 @@
         stroke: 2pt + primaryColor,
       )[
         #image(
-          "content/images/profile-picture.png",
+          "content/images/profile-picture.jpg",
           width: 90%,
         )
       ]
