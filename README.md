@@ -1,5 +1,9 @@
 # Curriculum Vitae
 
+[![Releases](https://img.shields.io/github/v/release/maximilian-hammerl/cv)](https://github.com/maximilian-hammerl/cv/releases)
+![Downloads](https://img.shields.io/github/downloads/maximilian-hammerl/cv/total)
+[![Top Language](https://img.shields.io/github/languages/top/maximilian-hammerl/cv)](https://github.com/maximilian-hammerl/cv/search?l=typst)
+
 > **Disclaimer:** This repository (and the CV template repository) was created as a fun side project and should not
 > be taken too seriously. It is not intended to be a particularly serious or efficient way to manage a CV — it just
 > happened to be an enjoyable thing to build. Expect rough edges.
