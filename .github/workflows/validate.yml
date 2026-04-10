@@ -1,0 +1,17 @@
+name: Validate
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install dependencies
+        run: npm install ajv-cli
+
+      - name: Validate YAML against schema
+        run: npx ajv validate -s content/translations-schema.yaml -d "content/translations/*.yaml" --spec=draft7 --errors=text
