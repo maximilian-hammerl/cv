@@ -87,19 +87,23 @@
   )
 ]
 
+#let style-date(value) = text(number-width: "tabular")[#value]
+
 #grid(
   columns: (22%, 76%),
   gutter: 2%,
   [
-      #rect(
+    #if "profilePictureFileName" in general {
+      rect(
         inset: 0pt,
         stroke: 2pt + primaryColor,
       )[
         #image(
-          "content/images/profile-picture.jpg",
+          "content/images/" + general.profilePictureFileName,
           width: 90%,
         )
       ]
+    }
   ],
 
   [
@@ -110,14 +114,26 @@
       #smallcaps(general.jobTitle)
     ]
 
-    #v(4pt)
+    #if "profile" in data [
+      #v(4pt)
 
-    #section-title(data.profile.title)
+      #section-title(data.profile.title)
 
-    #data.profile.text
+      #data.profile.text
+    ]
   ],
 
   [
+    #if "personalDetails" in data [
+      #section-title(data.personalDetails.title)
+      #for element in data.personalDetails.data [
+        *#element.name* \
+        #element.value
+        #v(4pt)
+      ]
+      #v(4pt)
+    ]
+
     #section-title(data.social.title)
 
     *LinkedIn* \
@@ -170,43 +186,56 @@
         columns: (25%, 75%),
         gutter: 10pt,
         ..company.positions.map(position => (
-          if "to" in position and position.to != none and position.to != "" [
-            #position.from \- #position.to
+          if "to" in position [
+            #style-date(position.from) \- #style-date(position.to)
           ] else [
-            #position.from
+            #style-date(position.from)
           ],
           text(weight: "bold")[#position.title],
         )).flatten(),
       )
 
-      #text(weight: "bold")[
-        #data.tasks:
-      ]
-      #for task in company.tasks [
-        - #task
+      #if "tasks" in company [
+        #text(weight: "bold")[
+          #data.tasks:
+        ]
+        #for task in company.tasks [
+          - #task
+        ]
       ]
 
-      #text(weight: "bold")[
-        #data.technologies:
+      #if "technologies" in company [
+        #text(weight: "bold")[
+          #data.technologies:
+        ]
+        #company.technologies.join(", ")
       ]
-      #company.technologies.join(", ")
 
       #v(4pt)
     ]
 
     #section-title(data.education.title)
 
-    #grid(
-      columns: (25%, 75%),
-      gutter: 10pt,
-      ..data.education.steps.map(step => (
-        step.from + [ \- ] + step.to,
+    #for step in data.education.steps [
+      #grid(
+        columns: (25%, 75%),
+        gutter: 10pt,
+        style-date(step.from) + [ \- ] + style-date(step.to),
         text(weight: "bold")[#step.title]
         + [ \- ]
         + step.institution
         + [ \ ]
         + text(size: 8pt)[#step.grading],
-      )).flatten(),
-    )
+      )
+
+      #if "projects" in step [
+        #text(weight: "bold")[
+          #data.projects:
+        ]
+        #for project in step.projects [
+          - #project
+        ]
+      ]
+    ]
   ]
 )
