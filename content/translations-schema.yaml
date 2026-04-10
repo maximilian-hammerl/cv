@@ -1,14 +1,13 @@
-# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
-$schema: "https://json-schema.org/draft/2020-12/schema"
+# yaml-language-server: $schema=http://json-schema.org/draft-07/schema#
 type: object
 required:
   - downloadCv
   - tasks
   - technologies
+  - projects
   - social
   - contact
   - language
-  - profile
   - workExperience
   - education
   - easterEgg
@@ -20,6 +19,8 @@ properties:
     type: string
   technologies:
     type: string
+  projects:
+    type: string
   social:
     type: object
     required: [title]
@@ -27,6 +28,24 @@ properties:
     properties:
       title:
         type: string
+  personalDetails:
+    type: object
+    required: [ title, data ]
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+      data:
+        type: array
+        items:
+          type: object
+          required: [ name, value ]
+          additionalProperties: false
+          properties:
+            name:
+              type: string
+            value:
+              type: string
   contact:
     type: object
     required: [title, email, phone]
@@ -76,7 +95,7 @@ properties:
         type: array
         items:
           type: object
-          required: [name, positions, tasks, technologies]
+          required: [name, positions]
           additionalProperties: false
           properties:
             name:
@@ -126,5 +145,9 @@ properties:
               type: string
             grading:
               type: string
+            projects:
+              type: array
+              items:
+                type: string
   easterEgg:
     type: string
