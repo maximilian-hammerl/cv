@@ -10,8 +10,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Install dependencies
-        run: npm install ajv-cli
-
-      - name: Validate YAML against schema
-        run: npx ajv validate -s content/translations-schema.yaml -d "content/translations/*.yaml" --spec=draft7 --errors=text
+      - name: Validate files
+        run: bash validate.sh
