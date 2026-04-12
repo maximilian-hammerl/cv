@@ -30,7 +30,7 @@ properties:
         type: string
   personalDetails:
     type: object
-    required: [ title, data ]
+    required: [title, data]
     additionalProperties: false
     properties:
       title:
@@ -39,7 +39,7 @@ properties:
         type: array
         items:
           type: object
-          required: [ name, value ]
+          required: [name, value]
           additionalProperties: false
           properties:
             name:
@@ -84,6 +84,28 @@ properties:
         type: string
       text:
         type: string
+  coreSkills:
+    type: object
+    required: [title, skills]
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+      skills:
+        type: array
+        items:
+          type: string
+  coreTechnologies:
+    type: object
+    required: [title, technologies]
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+      technologies:
+        type: array
+        items:
+          type: string
   workExperience:
     type: object
     required: [title, companies]
@@ -143,6 +165,8 @@ properties:
               type: string
             institution:
               type: string
+            institutionNewline:
+              type: boolean
             grading:
               type: string
             projects:
