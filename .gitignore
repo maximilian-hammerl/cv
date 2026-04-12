@@ -1,3 +1,8 @@
-.idea
-dist/*.pdf
+# MacOS specific
 .DS_Store
+
+# IntellIJ IDEA config directory
+.idea
+
+# Compiled PDFs
+dist/*.pdf
