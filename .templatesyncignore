@@ -1,7 +1,7 @@
 .github
 
-content/general.yaml
-content/translations
-content/images
+input/profile.yaml
+input/images
+input/locales/**/content.yaml
 
 README.md
