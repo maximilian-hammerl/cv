@@ -262,7 +262,7 @@
       #if "projects" in step [
         *#labels.projects*
         #for project in step.projects [
-          - #project
+          - *#project.title*#if "link" in project [#footnote(link(project.link))]#if "description" in project [\ #project.description]
         ]
       ]
 

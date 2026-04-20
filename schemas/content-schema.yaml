@@ -90,4 +90,13 @@ properties:
         projects:
           type: array
           items:
-            type: string
+            type: object
+            required: [title]
+            additionalProperties: false
+            properties:
+              title:
+                type: string
+              description:
+                type: string
+              link:
+                type: string

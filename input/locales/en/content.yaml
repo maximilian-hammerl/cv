@@ -72,8 +72,36 @@ education:
     title: Master of Science, Computer Science
     institution: University of Augsburg
     grading: 'ECTS credits: 85/120, provisional grade: 1.20'
+    projects:
+      - title: 'Master thesis: Development and Evaluation of a Collaborative XR Application for Co-Creativity'
+        description: Researched the potential of XR technologies to enhance co-creative
+          design workshops through a focus group study with domain experts in Estonia,
+          using HoloLens 2 and HTC Focus 3 headsets. Derived requirements via qualitative
+          content analysis and developed and evaluated a collaborative XR application
+          for co-creative sessions.
+      - title: 'Project module: Social simulation game UNISON'
+        link: https://dl.acm.org/doi/10.1145/3649921.3649936
+        description: Planned and implemented the multiplayer game and its backend for
+          UNISON, a social simulation game designed as a scientific instrument to research
+          how design choices such as camera perspective impact player behavior and
+          engagement. The project resulted in a published paper and an open-source
+          release to facilitate future empirical social science research.
+      - title: 'Project: AR: Augmented Robots'
+        link: https://bidt-demoday.de/ar-augmented-robots/
+        description: Developed the technical concept and three-layer architecture of
+          an AR widget framework for the Microsoft HoloLens, enabling visualization
+          of robot sensor data and ROS integration in human-robot interaction scenarios.
+          Implemented the generic widget framework serving as the extensible foundation
+          for all other widgets.
   - from: 10/2016
     to: 03/2021
     title: Bachelor of Science, Computer Science
     institution: University of Passau
     grading: 'ECTS credits: 173/180, provisional grade: 2.50'
+    projects:
+      - title: 'Bachelor thesis: Extending LPL for Fine-Grained Access Control with XACML'
+        description: Extended the Layered Privacy Language (LPL) with XACML to replace
+          purpose-based with attribute-based access control, enabling fine-grained
+          authorization in GDPR-compliant information systems. Covered requirement
+          analysis, concept and model design, implementation, and evaluation through
+          benchmark testing and practical use cases.

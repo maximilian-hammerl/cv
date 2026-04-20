@@ -71,8 +71,36 @@ education:
     title: Master of Science, Informatik
     institution: Universität Augsburg
     grading: 'ECTS-Punkte: 85/120, vorläufige Note: 1.20'
+    projects:
+      - title: 'Masterarbeit: Development and Evaluation of a Collaborative XR Application for Co-Creativity'
+        description: Erforschung des Potenzials von XR-Technologien zur Verbesserung
+          ko-kreativer Design-Workshops durch eine Fokusgruppen-Studie mit Fachexperten
+          in Estland unter Einsatz von HoloLens 2 und HTC Focus 3. Ableitung von
+          Anforderungen mittels qualitativer Inhaltsanalyse sowie Entwicklung und
+          Evaluation einer kollaborativen XR-Anwendung für ko-kreative Sessions.
+      - title: 'Projektmodul: Soziales Simulationsspiel UNISON'
+        link: https://dl.acm.org/doi/10.1145/3649921.3649936
+        description: Planung und Implementierung des Multiplayer-Spiels und dessen
+          Backends für UNISON, ein soziales Simulationsspiel als wissenschaftliches
+          Instrument zur Erforschung des Einflusses von Designentscheidungen wie der
+          Kameraperspektive auf Spielerverhalten und -erleben. Das Projekt mündete
+          in einer wissenschaftlichen Publikation und einer Open-Source-Veröffentlichung
+          zur Förderung empirischer sozialwissenschaftlicher Forschung.
+      - title: 'Projekt: AR: Augmented Robots'
+        link: https://bidt-demoday.de/ar-augmented-robots/
+        description: Technische Konzeption und Drei-Schichten-Architektur eines AR-Widgetframeworks
+          für die Microsoft HoloLens zur Visualisierung von Roboter-Sensordaten und
+          ROS-Integration in der Mensch-Roboter-Interaktion. Implementierung des generischen
+          Widget-Frameworks als erweiterbare Grundlage für alle weiteren Widgets.
   - from: 10/2016
     to: 03/2021
     title: Bachelor of Science, Informatik
     institution: Universität Passau
     grading: 'ECTS-Punkte: 173/180, vorläufige Note: 2.50'
+    projects:
+      - title: 'Bachelorarbeit: Extending LPL for Fine-Grained Access Control with XACML'
+        description: Erweiterung der Layered Privacy Language (LPL) um XACML zur
+          Ablösung des zweckbasierten durch ein attributbasiertes Zugriffskontrollmodell
+          für feingranulare Autorisierung in DSGVO-konformen Informationssystemen.
+          Umfasste Anforderungsanalyse, Konzept- und Modellentwicklung, Implementierung
+          sowie Evaluation durch Benchmark-Tests und Anwendungsfälle.
