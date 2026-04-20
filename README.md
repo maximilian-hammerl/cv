@@ -11,6 +11,13 @@
 This repository contains my curriculum vitae, built with [Typst](https://typst.app) – a modern, fast
 markup-based typesetting system designed as an alternative to LaTeX.
 
+## Download
+
+The latest versions of my CV are available in the
+[Releases](https://github.com/maximilian-hammerl/cv/releases) section in both
+[**German**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-de.pdf) and
+[**English**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-en.pdf).
+
 ## Structure
 
 - [`main.typ`](main.typ) - Main CV document
@@ -25,13 +32,6 @@ markup-based typesetting system designed as an alternative to LaTeX.
 - [`fonts/`](fonts/) - Fonts used in the CV
 - [`icons/`](icons/) - Icons used in the CV
 - [`dist/`](dist/) - Generated PDFs
-
-## Download
-
-The latest versions of my CV are available in the
-[Releases](https://github.com/maximilian-hammerl/cv/releases) section in both
-[**German**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-de.pdf) and
-[**English**](https://github.com/maximilian-hammerl/cv/releases/latest/download/cv-en.pdf).
 
 ## Licensing
 
