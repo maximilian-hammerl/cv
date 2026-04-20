@@ -20,7 +20,7 @@ coreTechnologies:
   - 'Languages: TypeScript/JavaScript (Deno, Vue.js, Capacitor), Kotlin/Java (Spring, JSF), C# (Unity, WPF), PHP (Symfony)'
   - 'Databases: PostgreSQL, MariaDB, Supabase'
   - 'Testing: Load testing, unit, integration & end-to-end testing'
-  - 'CI/CD: GitHub, Bitbucket'
+  - 'CI/CD: GitHub Actions, Bitbucket Pipelines'
   - 'Containerization: Docker, Kubernetes'
 workExperience:
   - name: Smart Cyber Security GmbH
@@ -31,8 +31,8 @@ workExperience:
         to: 12/2025
         title: Software Engineer
     tasks:
-      - Full-stack development of Smart Lens, an EASM SaaS product, with a focus on
-        server-side development.
+      - Full-stack development of Smart Lens, an External Attack Surface Management
+        (EASM) SaaS product, with a focus on server-side development.
       - Primary technical responsibility for backend, APIs, and database.
       - Introduction of an RFC process as well as preparation and facilitation of architecture
         decisions.
