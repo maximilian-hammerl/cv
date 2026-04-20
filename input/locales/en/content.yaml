@@ -5,10 +5,23 @@ languages:
   - name: English
     proficiency: Proficient (C1)
 profile: As a Senior Software Engineer, I bring full-stack experience and have my greatest
-  professional strengths in backend development, software architecture, and the
-  design of resilient system landscapes. I am particularly motivated by complex
+  professional strengths in software architecture and the design of resilient system
+  landscapes. I am particularly motivated by complex
   projects in interdisciplinary teams where technical depth, clear communication,
   and sustainable solutions are essential.
+coreSkills:
+  - Full-stack development with a focus on designing scalable, robust, and maintainable
+    software systems across web and mobile platforms.
+  - Agile methodologies, stakeholder management, and cross-functional collaboration.
+  - Analyzing complex technical problems and communicating solutions clearly and
+    precisely to both technical and non-technical audiences.
+  - Design and code reviews, RFC processes, and architectural decision-making.
+coreTechnologies:
+  - 'Languages: TypeScript/JavaScript (Deno, Vue.js, Capacitor), Kotlin/Java (Spring, JSF), C# (Unity, WPF), PHP (Symfony)'
+  - 'Databases: PostgreSQL, MariaDB, Supabase'
+  - 'Testing: Load testing, unit, integration & end-to-end testing'
+  - 'CI/CD: GitHub, Bitbucket'
+  - 'Containerization: Docker, Kubernetes'
 workExperience:
   - name: Smart Cyber Security GmbH
     positions:
