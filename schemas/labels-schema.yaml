@@ -13,6 +13,10 @@ required:
   - languages
   - workExperience
   - education
+  - profile
+  - coreSkills
+  - coreTechnologies
+  - personalDetails
 additionalProperties: false
 properties:
   downloadCv:
