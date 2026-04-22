@@ -3,6 +3,17 @@
 #let profile = yaml("input/profile.yaml")
 #let release-version = sys.inputs.at("releaseVersion", default: "dev")
 
+#set document(
+  title: [
+    #if "jobTitle" in profile {
+      profile.fullName + " - " + profile.jobTitle
+    } else {
+      profile.fullName
+    }
+  ],
+  author: profile.fullName,
+)
+
 #set page(
   paper: "a4",
   margin: 1.2cm,
@@ -250,7 +261,7 @@
         #company.technologies.join(", ")
       ]
 
-      #v(4pt)
+      #if "pagebreak" in company and company.pagebreak { colbreak() } else { v(4pt) }
     ]
 
     #section-title(labels.education)
@@ -265,8 +276,8 @@
           #style-date(step.from)
         ],
         join-or-break(
-          first: [ *#step.title* ], 
-          second: step.institution, 
+          first: [ *#step.title* ],
+          second: step.institution,
           delimiter-join: [ \- ],
         ) + (if "grading" in step { [ \ ] + text(size: 8pt)[#step.grading] } else { [] }),
       )
@@ -282,7 +293,7 @@
         ]
       ]
 
-      #v(4pt)
+      #if "pagebreak" in step and step.pagebreak { colbreak() } else { v(4pt) }
     ]
   ],
 )
